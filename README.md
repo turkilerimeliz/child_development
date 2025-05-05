@@ -13,17 +13,16 @@ This study investigates how mothers’ employment status influences various aspe
 ## 📂 Repository Structure
 
 1. **`master.do`**: Runs all the individual `.do` files in the correct sequence to reproduce the full analysis.
-2.  **`database_creation_parents.do`**: Identifies parents' demographics
-3. **`years_schooling.do`**: Imputes years of schooling based on ISCED
-4. **`database_childw'x'.do`**: Identifies respondents' children
-5. **`variable_creation_child.do`**: Combines information from several waves to produce final variables
-6. **`job_history_parents.do`**: Combines child age with parents' job histories
-7. **`job_episode.do`**: Creates the main dataset to produce age-earning profiles
-8. **`job_episode_country.do`**: Estimates parental wage income using age-earning profiles
-9. **`family_background.do`**: Constructs family background characteristics
-10. **`main_dataset.do`**: Produces the master dataset
-11. **`results.do`**: Reports tables
-12. **`figures.do`**: Reports figures
+2. **`database_creation.do`**:  
+3. **`variable_creation_child.do`**:  
+4. **`variable_creation_parents.do`**:  
+5. **`variable_creation_households.do`**:  
+6. **`sample_selection.do`**:  
+7. **`descriptives.do`**:  
+8. **`results.do`**: 
+9. **`results_activity.do`**: 
+10. **`results_heterogeneity.do`**: 
+11. **`figures.do`**: Reports figures
 
 ---
 
