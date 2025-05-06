@@ -52,7 +52,7 @@ The following user-written Stata packages are required to run the do-files assoc
 | **eststo**  | Estimates storage and tabulation                          | st0085_2 |
 | **mylabels**| Custom value labels for graphs                            |gr0092_1  |
 | **grc1leg**  |Combines legend for multiple graphs                       |grc1leg   |
-| **povdeco**  |Estimates lpoverty indices and decompositions             |povdeco   |
+| **povdeco**  |Estimates poverty indices and decompositions             |povdeco   |
 | **wyoung**  | Adjust p-values for multiple tests                        |wyoung    |
 
 ---
