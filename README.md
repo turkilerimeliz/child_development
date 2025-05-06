@@ -13,22 +13,22 @@ This study investigates how mothers’ employment status influences various aspe
 ## 📂 Repository Structure
 
 1. **`master.do`**: Runs all the individual `.do` files in the correct sequence to reproduce the full analysis.
-2. **`database_creation.do`**:  
-3. **`variable_creation_child.do`**:  
-4. **`variable_creation_parents.do`**:  
-5. **`variable_creation_households.do`**:  
-6. **`sample_selection.do`**:  
-7. **`descriptives.do`**:  
-8. **`results.do`**: 
-9. **`results_activity.do`**: 
-10. **`results_heterogeneity.do`**: 
+2. **`database_creation.do`**:  Merges datasets and prepares for the analysis
+3. **`variable_creation_child.do`**:  Constructs variables belongs to children
+4. **`variable_creation_parents.do`**:  Constructs variables belongs to parents
+5. **`variable_creation_households.do`**:  Retrieves variables on household characteristics 
+6. **`sample_selection.do`**:  Performs sample selection and upweighting 
+7. **`descriptives.do`**:  Produces descriptive statistics and figures 
+8. **`results.do`**: Produces main results of the study
+9. **`results_activity.do`**: Produces additional results on maternal work and parental engagement 
+10. **`results_heterogeneity.do`**: Performs heterogeneity analysis to identify differences based on maternal education, grandparent presence, and fathers` status in household
 11. **`figures.do`**: Reports figures
 
 ---
 
 ## 📂 Input Data Sources
 
-### 1. Türkiye Child Survey Micro Data Set, 2022
+### Türkiye Child Survey Micro Data Set, 2022
 
 Access to the following datasets can be requested from TURKSTAT: [https://tuik_mikro_veri](https://www.tuik.gov.tr/Kurumsal/Mikro_Veri)  
 TURKSTAT provides the original data folder in CSV format. For analysis purposes, the files should be converted to Stata (.dta) format, ensuring that variable names are in lowercase.
