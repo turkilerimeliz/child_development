@@ -57,6 +57,8 @@ The following user-written Stata packages are required to run the do-files assoc
 
 ## 🗂️ Folder Structure
 
+To replicate the analysis, please ensure the following folder structure is in place. Microdata obtained from TURKSTAT should be placed in the `datain` folder. The provided do-files should be copied into the `do` folder. The folders `dataout`, `figures`, and `results` can remain empty initially, as they will be populated by the output generated during execution of the do-file.
+
 <details>
 <summary><strong>datain</strong></summary>  
  
