@@ -31,7 +31,7 @@ This study investigates how mothers’ employment status influences various aspe
 ### Türkiye Child Survey Micro Data Set, 2022
 
 Access to the following datasets can be requested from TURKSTAT: [https://tuik_mikro_veri](https://www.tuik.gov.tr/Kurumsal/Mikro_Veri)  
-TURKSTAT provides the original data folder in CSV format. For analysis purposes, the files should be converted to Stata (.dta) format, ensuring that variable names are in lowercase.
+TURKSTAT provides the original data files in CSV format. For analysis purposes, the files should be converted to Stata (.dta) format, ensuring that variable names are in lowercase.
 
 - `TCS_Household_Microdata.dta` – Household characteristics
 - `TCS_Individual_0-17_Microdata.dta` – Child questionnaire 
