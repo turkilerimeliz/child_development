@@ -37,5 +37,20 @@ TURKSTAT provides the original data folder in CSV format. For analysis purposes,
 - `TCS_Individual_0-17_Microdata.dta` – Child questionnaire 
 - `TCS_Individuallist_Microdata.dta` – Household roster
 
+---
+
+## 📦 Required Stata Packages
+
+Stata version 14 is required to perform the analysis.  
+The following user-written Stata packages are required to run the do-files associated with this project:
+
+| Package     | Description                        | Source                                                            |
+|-------------|------------------------------------|-------------------------------------------------------------------|
+| **zanthro** | Anthropometric Z-scores            | [sj13-2, dm0004_1](http://www.stata-journal.com/software/sj13-2) |
+| **orth_out**| Automate and export summary stats/orthogonality tables    | [orth_out](http://fmwww.bc.edu/RePEc/bocode/o)                   |
+| **stndzxage** | Standardized z-scores by age     | [stndzxage](https://ideas.repec.org/c/boc/bocode/s458634.html)                                        |
+| **eststo**  | Estimates storage and tabulation   | [sj14-2, st0085_2](http://www.stata-journal.com/software/sj14-2) |
+| **mylabels**| Custom value labels for graphs     | [sj24-1, gr0092_1](http://www.stata-journal.com/software/sj24-1) |
+| **wyoung**  | Adjust p-values for multiple tests | [wyoung](http://fmwww.bc.edu/RePEc/bocode/w)                     |
 
 
