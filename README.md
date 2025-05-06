@@ -44,13 +44,53 @@ TURKSTAT provides the original data folder in CSV format. For analysis purposes,
 Stata version 14 is required to perform the analysis.  
 The following user-written Stata packages are required to run the do-files associated with this project:
 
-| Package     | Description                        | Source                                                            |
-|-------------|------------------------------------|-------------------------------------------------------------------|
-| **zanthro** | Anthropometric Z-scores            | [sj13-2, dm0004_1](http://www.stata-journal.com/software/sj13-2) |
-| **orth_out**| Automate and export summary stats/orthogonality tables    | [orth_out](http://fmwww.bc.edu/RePEc/bocode/o)                   |
-| **stndzxage** | Standardized z-scores by age     | [stndzxage](https://ideas.repec.org/c/boc/bocode/s458634.html)                                        |
-| **eststo**  | Estimates storage and tabulation   | [sj14-2, st0085_2](http://www.stata-journal.com/software/sj14-2) |
-| **mylabels**| Custom value labels for graphs     | [sj24-1, gr0092_1](http://www.stata-journal.com/software/sj24-1) |
-| **wyoung**  | Adjust p-values for multiple tests | [wyoung](http://fmwww.bc.edu/RePEc/bocode/w)                     |
+| Name        | Description                                               | Package  |
+|-------------|-----------------------------------------------------------|----------|
+| **zanthro** | Anthropometric Z-scores                                   | dm0004_1 |
+| **orth_out**| Automate and export summary stats/orthogonality tables    | orth_out |
+| **stndzxage** | Standardized z-scores by age     | [stndzxage](https://ideas.repec.org/c/boc/bocode/s458634.html) |
+| **eststo**  | Estimates storage and tabulation                          | st0085_2 |
+| **mylabels**| Custom value labels for graphs                            |gr0092_1  |
+| **wyoung**  | Adjust p-values for multiple tests                        |wyoung    |
 
+---
 
+## 🗂️ Folder Structure
+
+<details>
+<summary><strong>datain</strong></summary>  
+ 
+- `TCS_Household_Microdata.dta`  
+- `TCS_Individual_0-17_Microdata.dta`  
+- `TCS_Individuallist_Microdata.dta`
+  
+</details>
+
+<details>
+<summary><strong>do</strong></summary>  
+ 
+1. **`master.do`**   
+2. **`database_creation.do`**  
+3. **`variable_creation_child.do`**   
+4. **`variable_creation_parents.do`**   
+5. **`variable_creation_households.do`**   
+6. **`sample_selection.do`**   
+7. **`descriptives.do`**   
+8. **`results.do`**   
+9. **`results_activity.do`**   
+10. **`results_heterogeneity.do`**  
+11. **`figures.do`**
+    
+</details>
+
+<details>
+<summary><strong>dataout</strong></summary>
+</details>
+
+<details>
+<summary><strong>figures</strong></summary>
+</details>
+
+<details>
+<summary><strong>results</strong></summary>
+</details>
